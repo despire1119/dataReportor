@@ -29,7 +29,7 @@
           @mouseenter="report.showShade = true"
           @mouseleave="report.showShade = false"
         >
-          <div class="report-type">type: {{report.type}}</div>
+          <div class="report-type">项目名称: {{report.type}}</div>
           <div class="report-info">{{report.title}}</div>
           <transition name="slide-fade">
             <div v-show="report.showShade" class="shade">

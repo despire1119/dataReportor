@@ -1,6 +1,6 @@
 export const dragReportData = [
   {
-    title: 'test-report',
+    title: '交管运营日报',
     reportUnionKey: '17826e40-dba6-4605-b96a-9d4ae2ddcab5',
     children: [
       {
@@ -81,7 +81,7 @@ export const dragReportData = [
     ]
   },
   {
-    title: 'month-report',
+    title: '定制公交运营日报',
     reportUnionKey: '83502436-6100-4628-b564-c6920e2c2f15',
     children: [
       {
@@ -112,7 +112,7 @@ export const dragReportData = [
     ]
   },
   {
-    title: 'year-report',
+    title: '网约车运营年报',
     reportUnionKey: 'af84a1c6-b83e-44fd-9230-b364631d2925',
     children: [
       {
@@ -146,7 +146,7 @@ export const dragReportData = [
     ]
   },
   {
-    title: 'new-report',
+    title: '新增报表',
     reportUnionKey: '83502436-dba6-4628-b564-c6920e2c2f15',
     children: [
       {
@@ -254,10 +254,10 @@ export const dragReportData = [
 ]
 
 export const reportListDatas = [
-  { reportUnionKey: '17826e40-dba6-4605-b96a-9d4ae2ddcab5', type: 'day', title: '日报' },
-  { reportUnionKey: '83502436-6100-4628-b564-c6920e2c2f15', type: 'month', title: '月报' },
-  { reportUnionKey: 'af84a1c6-b83e-44fd-9230-b364631d2925', type: 'year', title: '年报' },
-  { reportUnionKey: '83502436-dba6-4628-b564-c6920e2c2f15', type: 'test', title: 'new-report' }
+  { reportUnionKey: '17826e40-dba6-4605-b96a-9d4ae2ddcab5', type: '日报', title: '交管局' },
+  { reportUnionKey: '83502436-6100-4628-b564-c6920e2c2f15', type: '月报', title: '定制公交' },
+  { reportUnionKey: 'af84a1c6-b83e-44fd-9230-b364631d2925', type: '年报', title: '网约车' },
+  { reportUnionKey: '83502436-dba6-4628-b564-c6920e2c2f15', type: '测试', title: '新建日报' }
 ]
 
 export const componentDatas = [
